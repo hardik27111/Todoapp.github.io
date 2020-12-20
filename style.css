@@ -8,6 +8,7 @@ body {
   background-image: linear-gradient(120deg, #56067a, #950e83, #950aad);
   color: white;
   min-height: 100vh;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 input,
