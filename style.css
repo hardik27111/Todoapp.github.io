@@ -8,7 +8,7 @@ body {
   background-image: linear-gradient(120deg, #56067a, #950e83, #950aad);
   color: white;
   min-height: 100vh;
-  font-family: 'Ubuntu', sans-serif;
+  
 }
 
 input,
@@ -19,6 +19,7 @@ button:focus {
 
 header {
   font-size: 1.5rem;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 header,
@@ -41,6 +42,7 @@ button,
   font-size: 2rem;
   border: none;
   border-radius: 30px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 form button {
@@ -72,6 +74,7 @@ form button:hover {
   background-color: white;
   color: black;
   font-size: 1.5rem;
+  font-family: 'Ubuntu', sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
