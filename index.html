@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List </title>
+    
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <h1>Hardik's Todo List</h1>
+    </header>
+    <form action="">
+        <div class="todo_input">
+        <input type="text" class="todo-input">
+        <button class="add-todo" type="submit"><i class="fas fa-plus-circle"></i></button>
+    </div>
+        <div class="select">
+            <select name="todos"  class="todotype">
+                <option value="all">All</option>
+                <option value="completed">Completed</option>
+                <option value="uncompleted">Uncompleted</option>
+            </select>
+        </div>
+       
+    </form>
+    <div class="todo-container">
+        <ul class="todo-list"></ul>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/b5be74168f.js" crossorigin="anonymous"></script>
+</body>
+</html>
